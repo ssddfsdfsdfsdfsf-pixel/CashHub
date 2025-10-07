@@ -919,9 +919,9 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "asdasdkasdad", Description = "Script Developer", Discord = "asdasdkasdad", DISCORD = "AbstractPoo"}
-    creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", DISCORD = "AbstractPoo"}
-    creditsTab:credit{Name = "Discord Server", Description = "discord.gg/cashhub", Discord = "cashhub", DISCORD = "cashhub"}
+	creditsTab:credit{Name = "jrd13.1", Description = "Founder/Developer", Discord = "jrd13.1", DISCORD = "jrd13.1"}
+    creditsTab:credit{Name = "asdasdkasdad", Description = "Founder/Developer", Discord = "asdasdkasdad", DISCORD = "asdasdkasdad"}
+    creditsTab:credit{Name = "Discord Server", Description = "discord.gg/cashhub", Discord = "discord.gg/cashhub", DISCORD = "discord.gg/cashhub"}
 
 	return mt
 end
@@ -2798,7 +2798,7 @@ function Library:credit(options)
 				Size = UDim2.fromOffset(24, 24),
 				Position = UDim2.new(1, -8, 1, -8),
 				BackgroundColor3 = Color3.fromRGB(88, 101, 242)
-			}):round(5):tooltip("copy discord")
+			}):round(5):tooltip("copy")
 			local discord = discordContainer:object("Frame", {
 				Size = UDim2.new(1, -6, 1, -6),
 				Centered = true,
