@@ -877,8 +877,7 @@ function Library:create(options)
 			Library.LockDragging = state
 		end,
 	}
-
-
+	
 	settingsTab:slider{
 		Name = "UI Drag Speed",
 		Description = "How smooth the dragging looks.",
