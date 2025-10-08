@@ -878,36 +878,6 @@ function Library:create(options)
 		end,
 	}
 
-local storeTab = store:tab{
-	Name = "Stores",
-	Icon = "rbxassetid://8569322835"
-}
-
-local storeToggles = {
-	"Mansion",
-	"Airdrop",
-	"Jewelry Store",
-	"Museum",
-	"Power Plant",
-	"Cargo Plane",
-	"Passenger Train",
-	"Crater Bank",
-	"Crown Jewel",
-	"Oil Rig",
-	"Cargo Train",
-	"Cargo Ship",
-	"Tomb",
-	"Bank Truck",
-	"Gas Station",
-	"Donut Shop"
-}
-
-for _, name in ipairs(storeToggles) do
-	storeTab:toggle{
-		Name = name,
-		StartingState = true,
-	}
-end
 
 	settingsTab:slider{
 		Name = "UI Drag Speed",
